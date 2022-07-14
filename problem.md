@@ -1,6 +1,6 @@
 
 ## Objective
-This exercise is created to get hands on with creating multiple react components
+This exercise is created to get hands on with using react props to share data between components
 
 ## To Do
 - Fork the boilerplate
