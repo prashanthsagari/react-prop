@@ -1,8 +1,8 @@
 import './Common.css'
-function CommonComponent() {
-    return(
+function CommonComponent(props) {
+    return (
         <div className="CommonComponent">
-            {/* Print the props text below */}
+            {props.text}
             <h2></h2>
         </div>
     );

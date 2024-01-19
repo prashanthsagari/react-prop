@@ -1,9 +1,9 @@
 import './Body.css';
 
-function BodyContentComponent() {
-    return(
+function BodyContentComponent(props) {
+    return (
         <div className="BodyContent">
-            {/* Print the prop content below */}
+            {props.content}
             <h4></h4>
         </div>
     );
